@@ -1,4 +1,4 @@
-(".login-form").submit(function() {
+$(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
